@@ -36,7 +36,7 @@ const MainContent = () => {
           </div>
           <div className="bg-orange-950 text-white p-6 rounded-lg border border-[var(--brown)] shadow-2xl w-full md:w-72 mx-auto transition-transform transform hover:scale-105 hover:shadow-2xl">
             <h3 className="text-xl md:text-2xl font-bold mb-2">Join Us</h3>
-            <p>If you love dont hardcore and strict clans. Then you are at the right place! We are not strict. We welcome new members! So join us today apply here: <Link className="text-blue-600 underline" href={'/become-a-member'}>Apply</Link></p>
+            <p>If you dont like hardcore and strict clans. Then you are at the right place! We are not strict. We welcome new members! So join us today apply here: <Link className="text-blue-600 underline" href={'/become-a-member'}>Apply</Link></p>
           </div>
         </section>
       </main>
