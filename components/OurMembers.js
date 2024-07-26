@@ -94,7 +94,7 @@ const OurClanMembers = () => {
     const fetchHeadshots = async () => {
       try {
         const urls = await Promise.all(members.map(async (member) => {
-          const response = await fetch(`http://localhost:3000/api/robloxHeadshot?username=${member.username}`);
+          const response = await fetch(`https://oreo-clan.vercel.app/api/robloxHeadshot?username=${member.username}`);
           if (!response.ok) throw new Error('Network response was not ok');
           const data = await response.json();
           return data.headshotUrl;

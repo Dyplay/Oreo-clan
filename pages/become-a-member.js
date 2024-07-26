@@ -3,7 +3,7 @@ import { useSpring, animated } from '@react-spring/web';
 
 const fetchRobloxAvatar = async (username) => {
   try {
-    const response = await fetch(`http://localhost:3000/api/robloxHeadshot?username=${username}`);
+    const response = await fetch(`https://oreo-clan.vercel.app/api/robloxHeadshot?username=${username}`);
     const data = await response.json();
     return data.headshotUrl; // Ensure your API response has a 'headshotUrl'
   } catch (error) {

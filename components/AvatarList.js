@@ -14,7 +14,7 @@ const AvatarList = () => {
   useEffect(() => {
     const fetchHeadshots = async () => {
       const urls = await Promise.all(pfps.map(async (pfp) => {
-        const response = await fetch(`http://localhost:3000/api/robloxHeadshot?username=${pfp.username}`);
+        const response = await fetch(`https://oreo-clan.vercel.app/api/robloxHeadshot?username=${pfp.username}`);
         const data = await response.json();
         return data.headshotUrl;
       }));
