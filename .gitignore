@@ -38,3 +38,5 @@ Thumbs.db
 # Production
 *.prod.*
 node_modules
+
+/data
