@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.oreo-theme {
+  --brown: #8B4513;
+  --black: #000000;
+  --white: #FFFFFF;
+}
