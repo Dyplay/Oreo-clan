@@ -12,12 +12,14 @@ const MainContent = () => {
           <h2 className="text-4xl md:text-7xl font-bold mb-4 text-white">Welcome to Oreo Clan</h2>
           <p className="text-lg md:text-2xl text-white">The best active pet sim 99 clan on the entire plattform!</p>
           <div className="space-x-6">
-          <button className="text-white bg-orange-800 mt-10 rounded p-2 md:p-4 transition-transform transform hover:scale-105 hover:animate-glow w-[220px] text-center"><span className="text-center ml-4">
+       
+       <Link href={'/become-a-member'}>
+       <button className="text-white bg-orange-800 mt-10 rounded p-2 md:p-4 transition-transform transform hover:scale-105 hover:animate-glow w-[220px] text-center"><span className="text-center ml-4">
           <span className="flex float-start fixed"><svg className="float-start mr-1 mt-0.5 ml-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
   <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
   <path d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4"/>
 </svg></span> Become a Member!</span></button>
-
+       </Link>
           </div>
           <div className="text-white text-center justify-center relative top-[30px]">
             <h1>We have over 20+ members!</h1>
